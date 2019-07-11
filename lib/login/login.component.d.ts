@@ -17,9 +17,12 @@ export declare class LoginComponent implements OnInit {
     showLogin: Boolean;
     currentUser: any;
     regURL: string;
+    resetPwdURL: string;
     loginBtnText: String;
     RegBtnText: String;
     heading: String;
+    registerLink: number;
+    passwordHints: String;
     constructor(formBuilder: FormBuilder, route: ActivatedRoute, router: Router, authenticationService: AuthenticationService, authconfig: AuthConfig);
     ngOnInit(): void;
     readonly f: {

@@ -15,7 +15,7 @@ export declare class AuthenticationService {
      * @input: username & password
      * @output: Users data object      *
      */
-    login(username: string, password: string): Observable<any>;
+    login(dataObj: any): Observable<any>;
     /**
      * Facebook Login
      */
@@ -26,7 +26,7 @@ export declare class AuthenticationService {
      * @input: user data in Object
      * @output: boolean
      */
-    register(firstName: any, lastName: any, email: any, password: any, provider: any, photoURL: any): Observable<any>;
+    register(dataObj: any): Observable<any>;
     /**
      * check email existance
      * @input: email
@@ -43,4 +43,10 @@ export declare class AuthenticationService {
      * @output: object
      */
     getInstaUserData(AccessToken: any): Observable<any>;
+    /**
+     * Method to send the reset password link to user's email
+     * @input: email/user Id
+     * @ouput: boolean
+     */
+    resetPassword(emailAdd: string): Observable<any>;
 }

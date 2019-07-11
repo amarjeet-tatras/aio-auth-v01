@@ -11,5 +11,6 @@ export interface AuthConfig {
     IGClientid: string;
     IGRedirectURL: string;
     regSuccessMsg: string;
+    resetPwdURL: string;
 }
 export declare const AuthConfigService: InjectionToken<AuthConfig>;
