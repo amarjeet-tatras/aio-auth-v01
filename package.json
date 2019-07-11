@@ -1,50 +1,40 @@
 {
-  "_args": [
-    [
-      "aio-auth-v01@0.0.3",
-      "/var/www/html/ion-sqlite"
-    ]
-  ],
-  "_from": "aio-auth-v01@0.0.3",
-  "_id": "aio-auth-v01@0.0.3",
-  "_inBundle": false,
-  "_integrity": "sha512-6zZ+HAR0luRy+4W/l1TTO9DYCQ6LPg+Orr2Ps07dI9dlb66CHVMsy21UwkDTd7gQm72xn7TRNSQ1QX/j82TQAw==",
-  "_location": "/aio-auth-v01",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "aio-auth-v01@0.0.3",
-    "name": "aio-auth-v01",
-    "escapedName": "aio-auth-v01",
-    "rawSpec": "0.0.3",
-    "saveSpec": null,
-    "fetchSpec": "0.0.3"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/aio-auth-v01/-/aio-auth-v01-0.0.3.tgz",
-  "_spec": "0.0.3",
-  "_where": "/var/www/html/ion-sqlite",
-  "dependencies": {
-    "tslib": "^1.9.0"
-  },
-  "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0. It contains the `all in one` authentication like with normal email/password, Gmail, Facebook & Instagram. It also have inbuilt User registration.",
-  "es2015": "fesm2015/aio-auth-v01.js",
-  "esm2015": "esm2015/aio-auth-v01.js",
-  "esm5": "esm5/aio-auth-v01.js",
-  "fesm2015": "fesm2015/aio-auth-v01.js",
-  "fesm5": "fesm5/aio-auth-v01.js",
-  "main": "bundles/aio-auth-v01.umd.js",
-  "metadata": "aio-auth-v01.metadata.json",
-  "module": "fesm5/aio-auth-v01.js",
-  "name": "aio-auth-v01",
+  "name": "npm-aio-auth",
+  "version": "1.0",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
   },
-  "sideEffects": false,
+  "main": "bundles/aio-auth-v01.umd.js",
+  "module": "fesm5/aio-auth-v01.js",
+  "es2015": "fesm2015/aio-auth-v01.js",
+  "esm5": "esm5/aio-auth-v01.js",
+  "esm2015": "esm2015/aio-auth-v01.js",
+  "fesm5": "fesm5/aio-auth-v01.js",
+  "fesm2015": "fesm2015/aio-auth-v01.js",
   "typings": "aio-auth-v01.d.ts",
-  "version": "0.0.3"
+  "metadata": "aio-auth-v01.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "author": "Amarjeet",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/amarjeetwebdev/npm-aio-auth/issues"
+    },
+    "homepage": "https://github.com/amarjeetwebdev/npm-aio-auth",
+  "keywords": [
+    "login",
+    "register",
+    "auth",
+    "facebook login",
+    "fb login",
+    "google login",
+    "gmail login",
+    "social login",
+    "Instagram login",
+    "all in one auth",
+    "npm auth"
+]
 }

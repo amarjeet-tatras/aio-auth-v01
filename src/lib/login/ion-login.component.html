@@ -1,0 +1,50 @@
+<div id="logreg-forms" *ngIf="showLogin">
+    <form class="form-signin" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+        <ion-grid>
+            <ion-row justify-content-center>
+                <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+                    <div text-center>
+                        <h3> Sign in</h3>
+                    </div>
+                    <div padding>
+
+                        <div *ngIf="error" class="text-danger">{{error}}</div>
+
+                        <ion-item>
+                            <ion-label position="floating">Username</ion-label>
+                            <ion-input type="text" formControlName="username" class="form-control"
+                                [ngClass]="{ 'is-invalid': submitted && f.username.errors }"></ion-input>                            
+                        </ion-item>
+                        <ion-item *ngIf="submitted && f.username.errors" class="error-message">
+                            <div  *ngIf="f.username.errors.required">Username is required</div>
+                        </ion-item>
+                        <ion-item>
+                            <ion-label position="floating" for="password">Password</ion-label>
+                            <ion-input type="password" formControlName="password" class="form-control"
+                                [ngClass]="{ 'is-invalid': submitted && f.password.errors }"></ion-input>                            
+                        </ion-item>
+                        <ion-item *ngIf="submitted && f.password.errors" class="error-message">
+                            <div class="error-message" *ngIf="f.password.errors.required">Password is required</div>
+                        </ion-item>
+                        <ion-item>
+                            <ion-button type="submit" [disabled]="loading" color="success" class="btn btn-success btn-block">Login
+                            </ion-button>
+                            
+                            <a routerLink="/register" routerLinkStatus='active' expand="block" fill="outline" id="newAccount" class="pull-right">Sign Up New Account</a>
+                        </ion-item>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </form>
+</div>
+
+
+<div class="well" *ngIf="!showLogin">
+    You are loggedIN with following details:<br />
+
+    Username : {{currentUser.username}}
+    <p> First Name : {{currentUser.firstName}} </p>
+    <!-- <p> <td-log-out></td-log-out></p>-->
+</div>
