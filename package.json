@@ -1,0 +1,40 @@
+{
+  "name": "npm-aio-auth",
+  "version": "1.0",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/npm-aio-auth.umd.js",
+  "module": "fesm5/npm-aio-auth.js",
+  "es2015": "fesm2015/npm-aio-auth.js",
+  "esm5": "esm5/npm-aio-auth.js",
+  "esm2015": "esm2015/npm-aio-auth.js",
+  "fesm5": "fesm5/npm-aio-auth.js",
+  "fesm2015": "fesm2015/npm-aio-auth.js",
+  "typings": "npm-aio-auth.d.ts",
+  "metadata": "npm-aio-auth.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "author": "Amarjeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarjeetwebdev/npm-aio-auth/issues"
+  },
+  "homepage": "https://github.com/amarjeetwebdev/npm-aio-auth",
+  "keywords": [
+    "login",
+    "register",
+    "auth",
+    "facebook login",
+    "fb login",
+    "google login",
+    "gmail login",
+    "social login",
+    "Instagram login",
+    "all in one auth",
+    "npm auth"
+  ]
+}
