@@ -1,0 +1,22 @@
+<mk-layout-content>
+    <div class="col-sm-8" style="float:inherit;margin:auto 0;"> 
+        
+        <td-login registerLink='0' passwordHints="Password must match the pattern: A@abc123" passwordPattern=""></td-login>  
+
+        <div class="clear"></div>
+        <div class="row">
+            <div class="col-sm-4 col-xs-12" style="margin-bottom: 10px;">
+                <td-fblogin></td-fblogin>                 
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <td-gmaillogin></td-gmaillogin>
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+                <td-insta-login></td-insta-login>
+            </div>
+        </div>
+    </div>
+    <button (click)="checkNetwork()">Check Networ</button>
+ 
+</mk-layout-content>

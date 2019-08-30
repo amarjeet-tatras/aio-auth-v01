@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css";*/
+.invalid-feedback {
+    color: #bf3f3f;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.nav>li a{ color: white;}
+
+.content-wrapper {     
+    background-color: white !important;
+}
+.social-btn{
+    width: 100%;
+}
